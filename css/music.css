@@ -295,11 +295,8 @@ section{
   
   .box2{
     background-image: linear-gradient(#36daf7,#ffffff);
-    /* background-color:#a012d8 ; */
-    /* padding-top: 0.5rem; */
     padding-bottom: 0.75rem;
-    /* background-image: url(https://themes.3rdwavemedia.com/wp-content/uploads/2019/04/decibel-bootstrap-template-for-musicians-bands.jpg); */
-    /* background-repeat: no-repeat; */
+    
   }
   
   .title{
