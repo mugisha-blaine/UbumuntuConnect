@@ -248,50 +248,50 @@ section{
     padding-top: 1rem;
 }
 
-.review .box-container{
+.uhealth .box-container{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:1.5rem;
 }
 
-.review .box-container .box{
+.uhealth .box-container .box{
     padding: 2rem;
     border-radius: .5rem;
     border:var(--border);
     box-shadow: var(--box-shadow);
 }
 
-.review .box-container .box .user{
+.uhealth .box-container .box .user{
     display: flex;
     align-items: center;
     padding-bottom: 1rem;
 }
 
-.review .box-container .box .user img{
+.uhealth .box-container .box .user img{
     height: 7rem;
     width: 7rem;
     border-radius: 50%;
     margin-right: 1rem;
 }
 
-.review .box-container .box .user h3{
+.uhealth .box-container .box .user h3{
     font-size: 2.2rem;
     color: var(--black);
     padding-bottom: .5rem;
 }
 
-.review .box-container .box .user .stars i{
+.uhealth .box-container .box .user .stars i{
     font-size: 1.5rem;
     color: var(--main-color);
 }
 
-.review .box-container .box .fa-quote-right{
+.uhealth .box-container .box .fa-quote-right{
     margin-left: auto;
     font-size: 5rem;
     color:var(--bg);
 }
 
-.review .box-container .box p{
+.uhealth .box-container .box p{
     padding-top: 1rem;
     font-size: 1.6rem;
     line-height: 1.8;
@@ -299,13 +299,13 @@ section{
     font-style: italic;
 }
 
-.contact .icons-container{
+.help .icons-container{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:1.5rem;
 }
 
-.contact .icons-container .icons{
+.help .icons-container .icons{
     padding: 2.5rem;
     text-align: center;
     border: var(--border);
@@ -313,7 +313,7 @@ section{
     box-shadow: var(--box-shadow);
 }
 
-.contact .icons-container .icons i{
+.help .icons-container .icons i{
     height: 6rem;
     width: 6rem;
     line-height: 6rem;
@@ -323,21 +323,21 @@ section{
     border-radius: 50%;
 }
 
-.contact .icons-container .icons h3{
+.help .icons-container .icons h3{
     color:var(--black);
     padding: 1rem 0;
     font-size: 2.5rem;
 }
 
-.contact .icons-container .icons p{
+.help .icons-container .icons p{
     color:var(--light-color);
     line-height: 1.8;
     font-size: 1.5rem;
 }
 
 .about,
-.contact,
-.review{
+.help,
+.uhealth{
     background-color: #fff0fac9;
 }
 
